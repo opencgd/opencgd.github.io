@@ -1,0 +1,247 @@
+STAGE 1
+-------
+
+landseed=2348234;  //Seed used to determine shape of landscape, use any 7 digit number
+unitseed=3127987;  //Seed used to determine position of enemy units, use any 7 digit number
+length=1000;       //Length of stage, larger number = longer stage
+speed=4;           //Level Scroll Speed, larger number = faster scrolling
+
+shipspeed=6;       //Speed of players ship, larger number = faster
+bul1max=5;         //Maximum simultaneous number of players bullets
+bul1xd=12;         //Horizontal speed of players bullets, larger number = faster
+bul1yd=0;          //Vertical speed of players bullets, larger number = faster
+bul1rate=5;        //Fire rate of players bullets, lower number = faster
+bul2max=2;         //Maximum simlutaneous numbers of players bombs
+bul2xd=6;          //Horizontal speed of players bombs, larger number = faster
+bul2yd=6;          //Vertical speed of players bombs, larger number = faster
+bul2ya=8;          //Speed at which players bombs rotate to vertical, large number = faster
+bul2rate=8;        //Fire rate of players bombs, lower number = faster
+
+fuel=200;          //Surplus Fuel density, lower number = more surplus fuel
+fuelrate=20;       //Rate at which fuel is used up, larger number = faster
+fuelbonus=2500;    //Amount fuel awarded per crate hit (10000=full ship)
+
+rockets=8;         //Rocket density, lower number = more rockets
+launch=50;         //Rocket Launch timing, lower number = launch sooner
+rcktspeed=4;       //Rocket speed, larger number = faster rockets
+
+ufos=9999999;      //Ufo density, lower number = more ufos
+ufowobble=4;       //How erratic is ufos movement? lower number = more erratic
+ufospeed=4;        //Speed of ufos, larger number = faster
+
+fireballs=9999999; //Fireball density, lower number = more fireballs
+firexd=4;          //Fireballs Horizontal speed, larger number = faster
+fireyd=1;          //Fireballs Vertical speed, larger number = faster
+
+jetpack=9999999;   //Jetpack men density, lower number = more men
+jetwobble=4;       //How erratic is jetpacks movment? lower number = more erratic
+jetspeed=4;        //Speed of jetpack men, larger number = faster
+jetfire=128;       //How often to men fire? lower number = more often
+jetfirespd=4;      //Speed of jetpack mens bullets, larger number = faster
+
+meteorite=9999999; //Meteorite density, lower number = more meteories
+meteorspeed=6;     //Meteorite fall speed, larger number = faster
+
+missiles=9999999;  //Missile density, lower number = more missiles
+mslespeed=6;       //Missile speed, larger number = faster
+
+snakes=9999999;    //Snake density, lower number = more snakes
+snakelen=5;        //Length of snakes, larger number = longer snakes
+snakerip=25;       //How much do snakes ripple?, larger number = bigger waves
+snakespeed=5;      //Speed of snakes, larger number = faster
+
+tanks=9999999;     //Tank density, lower number = more tanks
+tankfire=128;      //How often do tanks fire?, lower number = more often
+tankfirespd=5;     //Speed of tanks bullets, larger number = faster
+tankfireacel=2;    //Vertical acceleration of tanks bullets, lower number = bigger parobola
+
+springs=9999999;   //Spring density, lower number = more springs
+springlaunch=16;   //Spring launch probability, lower number = springs jump more often
+springspeed=15;    //Vertical speed of springs, larger number = faster
+springacel=5;      //Vertical acceleration of springs, lower number = jump higher
+
+STAGE 2
+-------
+
+landseed=7829123;  //Seed used to determine shape of landscape, use any 7 digit number
+unitseed=4585923;  //Seed used to determine position of enemy units, use any 7 digit number
+length=1000;       //Length of stage, larger number = longer stage
+speed=4;           //Level Scroll Speed, larger number = faster scrolling
+
+shipspeed=6;       //Speed of players ship, larger number = faster
+bul1max=5;         //Maximum simultaneous number of players bullets
+bul1xd=12;         //Horizontal speed of players bullets, larger number = faster
+bul1yd=0;          //Vertical speed of players bullets, larger number = faster
+bul1rate=5;        //Fire rate of players bullets, lower number = faster
+bul2max=2;         //Maximum simlutaneous numbers of players bombs
+bul2xd=6;          //Horizontal speed of players bombs, larger number = faster
+bul2yd=6;          //Vertical speed of players bombs, larger number = faster
+bul2ya=8;          //Speed at which players bombs rotate to vertical, large number = faster
+bul2rate=8;        //Fire rate of players bombs, lower number = faster
+
+fuel=200;          //Surplus Fuel density, lower number = more surplus fuel
+fuelrate=20;       //Rate at which fuel is used up, larger number = faster
+fuelbonus=2500;    //Amount fuel awarded per crate hit (10000=full ship)
+
+rockets=8;         //Rocket density, lower number = more rockets
+launch=50;         //Rocket Launch timing, lower number = launch sooner
+rcktspeed=4;       //Rocket speed, larger number = faster rockets
+
+ufos=32;           //Ufo density, lower number = more ufos
+ufowobble=4;       //How erratic is ufos movement? lower number = more erratic
+ufospeed=4;        //Speed of ufos, larger number = faster
+
+fireballs=9999999; //Fireball density, lower number = more fireballs
+firexd=4;          //Fireballs Horizontal speed, larger number = faster
+fireyd=1;          //Fireballs Vertical speed, larger number = faster
+
+jetpack=9999999;   //Jetpack men density, lower number = more men
+jetwobble=4;       //How erratic is jetpacks movment? lower number = more erratic
+jetspeed=4;        //Speed of jetpack men, larger number = faster
+jetfire=128;       //How often to men fire? lower number = more often
+jetfirespd=4;      //Speed of jetpack mens bullets, larger number = faster
+
+meteorite=9999999; //Meteorite density, lower number = more meteories
+meteorspeed=6;     //Meteorite fall speed, larger number = faster
+
+missiles=9999999;  //Missile density, lower number = more missiles
+mslespeed=6;       //Missile speed, larger number = faster
+
+snakes=9999999;    //Snake density, lower number = more snakes
+snakelen=5;        //Length of snakes, larger number = longer snakes
+snakerip=25;       //How much do snakes ripple?, larger number = bigger waves
+snakespeed=5;      //Speed of snakes, larger number = faster
+
+tanks=9999999;     //Tank density, lower number = more tanks
+tankfire=128;      //How often do tanks fire?, lower number = more often
+tankfirespd=5;     //Speed of tanks bullets, larger number = faster
+tankfireacel=2;    //Vertical acceleration of tanks bullets, lower number = bigger parobola
+
+springs=9999999;   //Spring density, lower number = more springs
+springlaunch=16;   //Spring launch probability, lower number = springs jump more often
+springspeed=15;    //Vertical speed of springs, larger number = faster
+springacel=5;      //Vertical acceleration of springs, lower number = jump higher
+
+STAGE 3
+-------
+
+landseed=1238083;  //Seed used to determine shape of landscape, use any 7 digit number
+unitseed=2723423;  //Seed used to determine position of enemy units, use any 7 digit number
+length=1000;       //Length of stage, larger number = longer stage
+speed=4;           //Level Scroll Speed, larger number = faster scrolling
+
+shipspeed=6;       //Speed of players ship, larger number = faster
+bul1max=5;         //Maximum simultaneous number of players bullets
+bul1xd=12;         //Horizontal speed of players bullets, larger number = faster
+bul1yd=0;          //Vertical speed of players bullets, larger number = faster
+bul1rate=5;        //Fire rate of players bullets, lower number = faster
+bul2max=2;         //Maximum simlutaneous numbers of players bombs
+bul2xd=6;          //Horizontal speed of players bombs, larger number = faster
+bul2yd=6;          //Vertical speed of players bombs, larger number = faster
+bul2ya=8;          //Speed at which players bombs rotate to vertical, large number = faster
+bul2rate=8;        //Fire rate of players bombs, lower number = faster
+
+fuel=200;          //Surplus Fuel density, lower number = more surplus fuel
+fuelrate=20;       //Rate at which fuel is used up, larger number = faster
+fuelbonus=2500;    //Amount fuel awarded per crate hit (10000=full ship)
+
+rockets=8;         //Rocket density, lower number = more rockets
+launch=50;         //Rocket Launch timing, lower number = launch sooner
+rcktspeed=4;       //Rocket speed, larger number = faster rockets
+
+ufos=9999999;      //Ufo density, lower number = more ufos
+ufowobble=4;       //How erratic is ufos movement? lower number = more erratic
+ufospeed=4;        //Speed of ufos, larger number = faster
+
+fireballs=32;      //Fireball density, lower number = more fireballs
+firexd=4;          //Fireballs Horizontal speed, larger number = faster
+fireyd=1;          //Fireballs Vertical speed, larger number = faster
+
+jetpack=9999999;   //Jetpack men density, lower number = more men
+jetwobble=4;       //How erratic is jetpacks movment? lower number = more erratic
+jetspeed=4;        //Speed of jetpack men, larger number = faster
+jetfire=128;       //How often to men fire? lower number = more often
+jetfirespd=4;      //Speed of jetpack mens bullets, larger number = faster
+
+meteorite=9999999; //Meteorite density, lower number = more meteories
+meteorspeed=6;     //Meteorite fall speed, larger number = faster
+
+missiles=9999999;  //Missile density, lower number = more missiles
+mslespeed=6;       //Missile speed, larger number = faster
+
+snakes=9999999;    //Snake density, lower number = more snakes
+snakelen=5;        //Length of snakes, larger number = longer snakes
+snakerip=25;       //How much do snakes ripple?, larger number = bigger waves
+snakespeed=5;      //Speed of snakes, larger number = faster
+
+tanks=9999999;     //Tank density, lower number = more tanks
+tankfire=128;      //How often do tanks fire?, lower number = more often
+tankfirespd=5;     //Speed of tanks bullets, larger number = faster
+tankfireacel=2;    //Vertical acceleration of tanks bullets, lower number = bigger parobola
+
+springs=9999999;   //Spring density, lower number = more springs
+springlaunch=16;   //Spring launch probability, lower number = springs jump more often
+springspeed=15;    //Vertical speed of springs, larger number = faster
+springacel=5;      //Vertical acceleration of springs, lower number = jump higher
+
+STAGE 4
+-------
+
+landseed=2439343;  //Seed used to determine shape of landscape, use any 7 digit number
+unitseed=7293124;  //Seed used to determine position of enemy units, use any 7 digit number
+length=1000;       //Length of stage, larger number = longer stage
+speed=4;           //Level Scroll Speed, larger number = faster scrolling
+
+shipspeed=6;       //Speed of players ship, larger number = faster
+bul1max=5;         //Maximum simultaneous number of players bullets
+bul1xd=12;         //Horizontal speed of players bullets, larger number = faster
+bul1yd=0;          //Vertical speed of players bullets, larger number = faster
+bul1rate=5;        //Fire rate of players bullets, lower number = faster
+bul2max=2;         //Maximum simlutaneous numbers of players bombs
+bul2xd=6;          //Horizontal speed of players bombs, larger number = faster
+bul2yd=6;          //Vertical speed of players bombs, larger number = faster
+bul2ya=8;          //Speed at which players bombs rotate to vertical, large number = faster
+bul2rate=8;        //Fire rate of players bombs, lower number = faster
+
+fuel=200;          //Surplus Fuel density, lower number = more surplus fuel
+fuelrate=20;       //Rate at which fuel is used up, larger number = faster
+fuelbonus=2500;    //Amount fuel awarded per crate hit (10000=full ship)
+
+rockets=8;         //Rocket density, lower number = more rockets
+launch=50;         //Rocket Launch timing, lower number = launch sooner
+rcktspeed=4;       //Rocket speed, larger number = faster rockets
+
+ufos=32;           //Ufo density, lower number = more ufos
+ufowobble=4;       //How erratic is ufos movement? lower number = more erratic
+ufospeed=4;        //Speed of ufos, larger number = faster
+
+fireballs=32;      //Fireball density, lower number = more fireballs
+firexd=4;          //Fireballs Horizontal speed, larger number = faster
+fireyd=1;          //Fireballs Vertical speed, larger number = faster
+
+jetpack=9999999;   //Jetpack men density, lower number = more men
+jetwobble=4;       //How erratic is jetpacks movment? lower number = more erratic
+jetspeed=4;        //Speed of jetpack men, larger number = faster
+jetfire=128;       //How often to men fire? lower number = more often
+jetfirespd=4;      //Speed of jetpack mens bullets, larger number = faster
+
+meteorite=9999999; //Meteorite density, lower number = more meteories
+meteorspeed=6;     //Meteorite fall speed, larger number = faster
+
+missiles=9999999;  //Missile density, lower number = more missiles
+mslespeed=6;       //Missile speed, larger number = faster
+
+snakes=9999999;    //Snake density, lower number = more snakes
+snakelen=5;        //Length of snakes, larger number = longer snakes
+snakerip=25;       //How much do snakes ripple?, larger number = bigger waves
+snakespeed=5;      //Speed of snakes, larger number = faster
+
+tanks=9999999;     //Tank density, lower number = more tanks
+tankfire=128;      //How often do tanks fire?, lower number = more often
+tankfirespd=5;     //Speed of tanks bullets, larger number = faster
+tankfireacel=2;    //Vertical acceleration of tanks bullets, lower number = bigger parobola
+
+springs=9999999;   //Spring density, lower number = more springs
+springlaunch=16;   //Spring launch probability, lower number = springs jump more often
+springspeed=15;    //Vertical speed of springs, larger number = faster
+springacel=5;      //Vertical acceleration of springs, lower number = jump higher

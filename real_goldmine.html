@@ -1,0 +1,57 @@
+<html>
+<head>
+<script language="javascript">
+<!--
+function showgame () {
+  if (document.layers) {
+    document.layers['ad'].left=-800;
+    document.layers['game'].left=0;
+  } else if (document.all) {
+    document.all('ad').style.left=-800;
+    document.all('game').style.left = 0;
+  } else if (document.getElementById) {
+    document.getElementById('ad').style.left=-800;
+    document.getElementById('game').style.left = 0;
+  }
+}
+
+function loaded () {
+  setTimeout("showgame()", 10000);
+}
+//-->
+</script>
+
+<BODY ONLOAD="loaded()" bgcolor="#CCECFF">
+
+<DIV ID="game" NAME="game" STYLE="LEFT: -800px; TOP: 0px; MARGIN: 0px; WIDTH: 590px; HEIGHT: 400px; POSITION: absolute;">
+<center><br>
+<applet width=528 height=384 codebase=goldmine/ code=goldmine.class>
+<h3>Unable to start game</h3>
+Please ensure you are using a Java(tm) capable browser<br>
+To download the Java(tm) plugin <a href="http://java.sun.com/getjava/">Click here!</a>
+</applet>
+<br><b>Controls</b><br>
+Use the arrows keys to move around, and Return to jump.<br>
+Collect the bags of gold for extra points. Reach the top of the map to move onto the next level.<br>
+Watch out for boulders, bats, rats, water, and more!
+</center>
+</DIV>
+
+<DIV ID="ad" NAME="ad" STYLE="LEFT: 0px; TOP: 0px; MARGIN: 0px; WIDTH: 590px; HEIGHT: 400px; POSITION: absolute;">
+<center>
+<br><h3>Goldmine is now loading!<br>Please wait...</h3>
+<NOLAYER>
+<IFRAME SRC="http://www.real.com/R/RC.ADS.games.jagex.R/www.real.com/ads/adredir_300x300_.rxml?tag=adi/real.guidebuttons/hugebutton/jagex;sect=games;sz=300x300;ord=XXXXX" WIDTH=300 HEIGHT=300 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no>
+<A HREF="http://ad.doubleclick.net/jump/real.guidebuttons/hugebutton/jagex;abr=!ie;sect=games;sz=300x300;ord=XXXXX"><IMG SRC="http://www.real.com/R/RC.ADS.games.jagex.R/www.real.com/ads/adredir_300x300_.rxml?tag=ad/real.guide/banner/jagex;abr=!ie;sect=games;sz=300x300;ord=XXXXX" WIDTH=300 HEIGHT=300></A>
+</IFRAME>
+</NOLAYER>
+<ILAYER id=ph1 VISIBILITY=hide WIDTH=300 HEIGHT=300></ILAYER>
+<br>Keep the games free - visit our sponsors!
+<br>(clicking will not interfere with your game)
+<LAYER SRC="http://www.real.com/R/RC.ADS.games.jagex.R/www.real.com/ads/adredir_300x300_.rxml?tag=adi/real.guidebuttons/hugebutton/jagex;sect=games;sz=300x300;ord=XXXXX" WIDTH=300 HEIGHT=300 VISIBILITY=hide ONLOAD="moveToAbsolute(ph1.pageX, ph1.pageY); clip.width=300; clip.height=304; visibility='show';"></LAYER>
+</center>
+</DIV>
+
+</center>
+</body>
+</html>

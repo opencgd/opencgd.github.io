@@ -1,0 +1,5 @@
+=4;
+=jagex.com;
+=jagex.co.uk;
+=local;
+=127.0.0.1;

@@ -1,0 +1,231 @@
+GAMENAMES
+=0,"Tetralink";
+=1,"Warships";
+=2,"Checkers";
+=3,"Chess";
+=4,"Reversi";
+=5,"Go-mad";
+=6,"Bgammon";
+=7,"Slimewar";
+
+LOADING MODULE
+=0,"Loading game rooms";
+=1,"Loading";
+=2,"Unpacking";
+=3,"3d models";
+=4,"2d graphics";
+=5,"textures";
+
+LOGIN MODULE
+=0,"Select an option";
+=1,"New User";
+=2,"Existing User";
+=3,"Choose a Username (This is the name other users will see)";
+=4,"Choose a Password (You will require this to login)";
+=5,"E-mail address:";
+
+=6,"To create an account please enter";
+=7,"all the requested details";
+
+=8,"Submit";
+=9,"Cancel";
+
+=10,"Please enter your";
+=11,"username and password";
+
+=12,"Username:";
+=13,"Password:";
+=14,"Ok";
+
+=15,"To create an account please enter";
+=16,"all the requested details";
+
+=17,"Please fill in ALL requested";
+=18,"information to continue!";
+
+=19,"Please wait...";
+=20,"Creating new account";
+=21,"Please wait connecting to server...";
+
+CHALROOM MODULE
+=0,"Top 50";
+=1,"players";
+=2,"Name - Score - Played - Won";
+=3,"Return to lobby";
+=4,"No current challenge";
+
+=5,"Click on a name in the";
+=6,"lefthand list to issue";
+=7,"a challenge";
+
+=8,"Gametype:";
+=9,"Rated";
+=10,"Non-rated";
+=11,"Time per move";
+=12,"30sec";
+=13,"1min";
+=14,"2mins";
+=15,"4mins";
+=16,"Accept challenge";
+=17,"Decline challenge";
+=18,"Abort challenge";
+=19,"Continue";
+=20,"Your rating is:";
+
+=21,"Who will you play?";
+=22,"Anybody";
+=23,"Equally Rated";
+=24,"Nearly Equal";
+=25,"Worse or equal";
+=26,"Better or equal";
+=27,"Nobody";
+
+=28,"Waiting players";
+
+=29,"Select a gametype and";
+=30,"click on a name to the";
+=31,"left to issue a challenge";
+
+=32,"Challenge Received";
+=33,"Has challenged you!";
+=34,"Challenge Sent";
+=35,"You have challenged";
+
+=36,"Select a game to play";
+=37,"Games in progress";
+=38,"vs";
+
+CLIENT MODULE
+=0,"30sec";
+=1,"1min";
+=2,"2min";
+=3,"4min";
+=4,"10min";
+=5,"Non-rated";
+=6,"Rated-game";
+=7,"You must enter both a username and a password";
+=8,"Please try again";
+=9,"Please wait...";
+=10,"Connecting to server";
+=11,"Sorry! The server is currently full";
+=12,"Please try again later";
+=13,"Invalid username or password";
+=14,"Try again, or create a new account";
+=15,"Sorry! Unable to connect to server";
+=16,"Username already taken";
+=17,"Please choose another username";
+
+=18,"Player busy";
+=19,"Other player is busy";
+=20,"with another challenge";
+
+=21,"Challenge declined";
+=22,"Other player has";
+=23,"declined your challenge";
+
+=24,"Challenge aborted";
+=25,"Other player has";
+=26,"aborted the challenge";
+
+=27,"You won!";
+=28,"points gained:";
+=29,"You lost!";
+=30,"points lost:";
+=31,"Non-rated game";
+=32,"Your opponent has offered a draw";
+
+SYSTEM COMMANDS. THESE ARE 2 SPECIAL COMMANDS THE USER MAY TYPE INTO
+THE CHAT BOX TO TRIGGER PRIVATE CHAT, OR CHANGE THEIR PASSWORD.
+YOU MAY REDEFINE THE COMMANDS HERE. COMMANDS MUST BE LOWER-CASE!
+YOU MUST ALSO MAKE THE IDENTICAL MODIFICATION IN TRANSLATE2.TXT
+=33,"tell";
+=34,"setpass";
+
+=35,"You must type a message too!";
+=36,"You tell";
+=37,"Beginner";
+=38,"Novice";
+=39,"Apprentice";
+=40,"Intermediate";
+=41,"Experienced";
+=42,"Expert";
+=43,"Master";
+=44,"Grandmaster";
+
+USED IN THE CONTEXT '1-min move'
+=45,"move";
+
+=46,"Connection lost! Please wait...";
+=47,"Attempting to re-establish";
+=48,"That username is already in use";
+=49,"Wait 60 seconds then retry";
+
+=50,"Please enter the same command a 2nd time to confirm password change";
+=51,"That does not match the 1st code you entered. Please try again";
+=52,"Changing password...";
+
+GENERAL GAME MODULE
+=0,"Please wait...";
+=1,"Your turn";
+=2,"Opponents turn";
+=3,"Time-left: ";
+
+=4,"Switch";
+=5,"to 3D";
+=6,"to 2D";
+=7,"Resign";
+=8,"Accept";
+=9,"Offer";
+=10,"Draw";
+
+=11,"Are you sure you";
+=12,"want to resign?";
+
+=13,"Are you sure you";
+=14,"want to accept a draw?";
+
+=15,"Are you sure you";
+=16,"want to offer a draw?";
+
+=17,"YES";
+=18,"NO";
+
+=19,"Game Ended";
+=20,"The game has ended";
+
+WARSHIPS GAME-1
+=0,"You sunk a";
+=1,"ship";
+=2,"Place your ships by clicking and dragging on the board below";
+=3,"Waiting for opponent...";
+=4,"Ships left: ";
+=5,"Click here to place randomly";
+=6,"choose target";
+=7,"Your opponents grid is shown below";
+=8,"Your remaining ships are shown below";
+
+CHESS GAME-3
+=0,"Select piee to promote to:";
+
+GO-MAD GAME-5
+=0,"White territory: ";
+=1,"Black territory: ";
+=2,"Pass";
+=3,"Move";
+
+BACKGAMMON GAME-6
+=0,"choose";
+=1,"1st";
+=2,"2nd";
+=3,"3rd";
+=4,"4th";
+=5,"piece to move";
+=6,"choose destination";
+
+=7,"Bear";
+=8,"Off";
+
+GAME-7
+=0,"Select a piece - you are green";
+=1,"Select a piece - you are blue";
+=2,"Select target square";
