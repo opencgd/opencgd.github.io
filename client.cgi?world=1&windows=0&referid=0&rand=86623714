@@ -16,8 +16,8 @@ BODY {margin:4px}
 <body topmargin=4 leftmargin=0 marginwidth=0 marginheight=0 bgcolor=#3e5266 text=white link=80a0e0 alink=80a0e0 vlink=80a0e0>
 <center>
 <IFRAME SRC=banner468.cgi?game=1 WIDTH=468 HEIGHT=60 MARGINWIDTH=0 MARGINHEIGHT=0 FRAMEBORDER=0 SCROLLING=no></iframe>
-<br><img border=0 src=http://server4.jagex.com/bluebar.gif width=1 height=4><br>
-<img src=http://server4.jagex.com/hbar.gif width=512 height=11><br>
+<br><img border=0 src=/server4.jagex.com/bluebar.gif width=1 height=4><br>
+<img src=/server4.jagex.com/hbar.gif width=512 height=11><br>
 <applet width=512 height=344 codebase=http://209.120.137.226/client/ archive=mudclient159.jar code=mudclient.class>
 <param name=poff value=0>
 <param name=ranseed value=1234567890>
@@ -26,10 +26,10 @@ BODY {margin:4px}
 To fix this you need to install the SUN Java plugin<br>
 <a href=http://java.sun.com/getjava/>Click here to get it</a><p>
 </applet><br>
-<img border=0 src=http://server4.jagex.com/bluebar.gif width=1 height=4><br>
+<img border=0 src=/server4.jagex.com/bluebar.gif width=1 height=4><br>
 <table cellspacing=2><tr><td>
-<a href='http://www.runescape.com/members.html' target=newwin><img src='http://server4.jagex.com/banners/newskills.gif' border=0 width=373 height=63></a>
+<a href='http://www.runescape.com/members.html' target=newwin><img src='/server4.jagex.com/banners/newskills.gif' border=0 width=373 height=63></a>
 </td><td>
-<a href=http://www.realarcade.com target=newwin><img src=http://server4.jagex.com/banners/realbanner.gif border=0></a>
+<a href=http://www.realarcade.com target=newwin><img src=/server4.jagex.com/banners/realbanner.gif border=0></a>
 </td></tr></table>
 </center></body></html>
