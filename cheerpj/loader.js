@@ -1,0 +1,3 @@
+cheerpjInit({
+  status: 'none'
+});
